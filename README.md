@@ -1,11 +1,11 @@
 # WEEBOO ANIME React + Vite
-- Install pnpm
+- Install node npm
 ```bash
-        npm install
+npm install
 ```
 - Run   
  ```bash
-    npm run dev
+npm run dev
 ```
 
 # Contributing
