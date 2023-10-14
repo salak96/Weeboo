@@ -58,16 +58,16 @@ export default function App() {
         <>
             <NavBar>
                 <Search>
-                        <NumResult animes={animes} />
+                    <NumResult animes={animes} />
                 </Search>
             </NavBar>
             <Main>
-               <Box>
+                <Box>
                     <AnimeList animes={animes} onSelectedAnime={handleSelectedAnime} />
-               </Box>
-               <Box>
+                </Box>
+                <Box>
                     <AnimeDetail selectedAnime={selectedAnime} />
-               </Box>
+                </Box>
             </Main>
         </>
     );

@@ -1,17 +1,20 @@
 # WEEBOO ANIME React + Vite
-- Install node npm
+
+-   Install node npm
+
 ```bash
 npm install
 ```
-- Run   
- ```bash
+
+-   Run
+
+```bash
 npm run dev
 ```
 
 # Contributing
-- Sandikha Galih
-- Sasangka Lambang 
-- [Search] Add new features
-- [Search] Fix bugs
 
-
+-   Sandikha Galih
+-   Sasangka Lambang
+-   [Search] Add new features
+-   [Search] Fix bugs
