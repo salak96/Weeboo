@@ -1,15 +1,16 @@
 # WEEBOO ANIME React + Vite
 - Install pnpm
-    - ```bash
-    $ npm install
-    ```
+```bash
+        npm install
+```
 - Run   
-    - ```bash
+ ```bash
     npm run dev
-    ```
+```
 
 # Contributing
 - Sandikha Galih
+- Sasangka Lambang 
 - [Search] Add new features
 - [Search] Fix bugs
 
