@@ -53,13 +53,13 @@ export default function App() {
         const newAnime = animes.filter((anime) => anime.mal_id === id);
         setSelectedAnime(newAnime[0]);
     }
+    
 
     return (
         <>
             <NavBar>
-                <Search>
-                    <NumResult animes={animes} />
-                </Search>
+                <Search animes={animes}  setFilteredResults={setAnimes} />
+                <NumResult animes={animes} />
             </NavBar>
             <Main>
                 <Box>

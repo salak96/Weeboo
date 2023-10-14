@@ -109,9 +109,25 @@ body {
 .nav-bar .search-results {
     font-size: 1.5rem;
 }
-
+.btn-search {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 0.8rem 1.6rem;
+    margin:10px;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    letter-spacing: 1.2px;
+}
 /* Main */
-
+.search-results{
+    font-size: 1.5rem;
+    color: var(--color-text);
+    font-weight: 600;
+    text-align: center;
+}
 .main {
     margin-top: 2.4rem;
     max-height: calc(100vh - 12rem - 3 * 5rem);
