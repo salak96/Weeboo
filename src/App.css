@@ -299,8 +299,11 @@ body {
     }
     .main .box {
         margin: auto;
-        width: 40rem;
+        width: 30rem;
+        max-width: 35rem;
+
     }
+
     .list {
         height: auto;
         overflow: auto;
