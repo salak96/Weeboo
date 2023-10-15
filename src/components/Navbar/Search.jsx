@@ -3,13 +3,12 @@ import React, { useState } from 'react';
 export default function Search({ searchValue, animes, setFilteredResults }) {
     const [searchInput, setSearchInput] = useState('');
     const searchItems = () => {
-        setSearchInput(searchValue)
+        setSearchInput(searchValue);
         const filteredData = animes.filter((item) => {
-            return Object.values(item).join('').toLowerCase().includes(searchInput.toLowerCase())
-            
-        })
-        setFilteredResults(filteredData)
-    }
+            return Object.values(item).join('').toLowerCase().includes(searchInput.toLowerCase());
+        });
+        setFilteredResults(filteredData);
+    };
     return (
         <div className='search-container'>
             <input
@@ -19,7 +18,9 @@ export default function Search({ searchValue, animes, setFilteredResults }) {
                 value={searchInput}
                 onChange={(e) => setSearchInput(e.target.value)}
             />
-            <button className='btn-search' onClick={searchItems}  >Search</button>
+            <button className='btn-search' onClick={searchItems}>
+                Search
+            </button>
         </div>
     );
 }

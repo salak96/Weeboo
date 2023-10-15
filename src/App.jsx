@@ -46,19 +46,16 @@ export default function App() {
                 'The appearance of "quirks", newly discovered super powers, has been steadily increasing over the years, with 80 percent of humanity possessing various abilities from manipulation of elements to shapeshifting. This leaves the remainder of the world completely powerless, and Izuku Midoriya is one such individual.',
         },
     ];
-    // Define animes before using it
     const [animes, setAnimes] = useState(animesData);
     const [selectedAnime, setSelectedAnime] = useState(animes[0]);
     function handleSelectedAnime(id) {
         const newAnime = animes.filter((anime) => anime.mal_id === id);
         setSelectedAnime(newAnime[0]);
     }
-    
-
     return (
         <>
             <NavBar>
-                <Search animes={animes}  setFilteredResults={setAnimes} />
+                <Search animes={animes} setFilteredResults={setAnimes} />
                 <NumResult animes={animes} />
             </NavBar>
             <Main>
